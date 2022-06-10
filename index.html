@@ -1,12 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Kenzieflix</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header>
+        <section>
+            <figure class="banner-kenzieflix">
+                <img src="./scr/banner00.png" alt="Kenzieflix">
+            </figure>
+        </section>
+    </header>
+    <main>
+        <div class="container">
+            <div>
+                <div>
+                    <h2>Quem está assistindo?</h2>
+                </div>
+                <div>
+                    <ul class="users-flex">
+                        <li>
+                            <img src="./scr/avatar01.jpg" alt="Foto de Perfil de Laurinha">
+                            <span>Laurinha</span>
+                        </li>
+                        <li>
+                            <img src="./scr/avatar02.jpg" alt="Foto de Perfil de Pedrinho">
+                            <span>Pedriho</span>
+                        </li>
+                        <li>
+                            <img src="./scr/avatar03.jpg" alt="Foto de Perfil de Agostinho">
+                            <span>Agostinho</span>
+                        </li>
+                        <li>
+                            <img id="add-profile" src="./scr/avatar04.png" alt="AdicioSne Mais um Perfil">
+                            <span>Adicionar Perfil</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="button-align">
+            <button id="config-button">Gerenciar Perfis</button>
+        </div>
+    </footer>
 </body>
 </html>
